@@ -1,0 +1,16 @@
+{
+  "id": "addon-latam",
+  "name": "Addon Latam",
+  "version": "1.0.0",
+  "apiVersion": 4,
+  "entry": "plugin.js",
+  "description": "Películas y series en español latino desde tu Addon Latam (protocolo Stremio).",
+  "author": "Addon Latam",
+  "hosts": ["duckdns.org", "*.duckdns.org"],
+  "streamHosts": "any",
+  "capabilities": ["search", "home", "browse", "episodes", "resolve"],
+  "color": "#E50914",
+  "settings": [
+    { "key": "addon", "label": "Tu enlace del addon", "type": "password", "required": true, "hint": "El manifest.json con tu token" }
+  ]
+}
